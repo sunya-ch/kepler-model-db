@@ -1,0 +1,59 @@
+name: Upload Trained Pipeline
+description: Upload trained pipeline to Kepler Model DB
+labels: model
+body:
+  - type: textarea
+    id: version
+    attributes:
+      label: Kepler Model Server tag/commit
+      value: |
+        <details>
+
+        </details>
+    validations:
+      required: true
+
+  - type: textarea
+    id: extractor
+    attributes:
+      label: Do you add/modify Extractor?
+      description: |
+        If yes, please provide as much info as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: isolator
+    attributes:
+      label: Do you add/modify Isolator?
+      description: |
+        If yes, please provide as much info as possible.
+    validations:
+      required: false
+
+  - type: textarea
+    id: trainer
+    attributes:
+      label: Do you add/modify Trainer?
+      description: |
+        If yes, please provide as much info as possible.
+    validations:
+      required: false
+
+  - type: textarea
+    id: benchmark
+    attributes:
+      label: Do you add train benchmark?
+      description: |
+        If yes, please provide as much info as possible.
+    validations:
+      required: false
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Training Machine Info
+      value: |
+        Please provide as much info as possible.
+    validations:
+      required: false
