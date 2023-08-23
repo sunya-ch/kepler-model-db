@@ -1,0 +1,25 @@
+,Unnamed: 0,model_name,model_class,model_file,features,fe_files,output_type,mae,platform_mae,feature_group
+0,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],DynPower,217.7244186046512,217.7244186046512,KubeletOnly
+1,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],DynPower,249.13784099185733,249.13784099185733,KubeletOnly
+2,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],DynPower,272.9942743339519,272.9942743339519,KubeletOnly
+3,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",['poly_scaler.pkl'],DynPower,393.2389756154784,393.2389756154784,KubeletOnly
+4,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],DynPower,426.4195325851388,426.4195325851388,KubeletOnly
+5,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],DynPower,1037.0486837558326,1037.0486837558326,CgroupOnly
+6,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],DynPower,1123.5161445352546,1123.5161445352546,KubeletOnly
+7,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,['bpf_cpu_time_us'],[],DynPower,1208.504207242179,1208.504207242179,BPFOnly
+8,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],DynPower,1223.7197674418603,1223.7197674418603,BPFIRQ
+9,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",['poly_scaler.pkl'],DynPower,1319.2479156611712,1319.2479156611712,BPFIRQ
+10,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,['bpf_cpu_time_us'],[],DynPower,1341.1186046511625,1341.1186046511625,BPFOnly
+11,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,['bpf_cpu_time_us'],['poly_scaler.pkl'],DynPower,1431.28428466614,1431.28428466614,BPFOnly
+12,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],DynPower,1431.5825630888824,1431.5825630888824,CgroupOnly
+13,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],DynPower,1490.679327775067,1490.679327775067,CgroupOnly
+14,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,['bpf_cpu_time_us'],[],DynPower,1503.8678853291965,1503.8678853291965,BPFOnly
+15,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],DynPower,1511.808437065292,1511.808437065292,BPFIRQ
+16,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,['bpf_cpu_time_us'],[],DynPower,1528.729137717029,1528.729137717029,BPFOnly
+17,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,['bpf_cpu_time_us'],[],DynPower,1545.796089570767,1545.796089570767,BPFOnly
+18,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",['poly_scaler.pkl'],DynPower,1549.1414259791566,1549.1414259791566,CgroupOnly
+19,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],DynPower,1568.9602682290883,1568.9602682290883,BPFIRQ
+20,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],DynPower,1592.5249056819994,1592.5249056819994,BPFIRQ
+21,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],DynPower,1631.2290688480966,1631.2290688480966,BPFIRQ
+22,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],DynPower,1713.7651162790696,1713.7651162790696,CgroupOnly
+23,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],DynPower,1838.514505694733,1838.514505694733,CgroupOnly

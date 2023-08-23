@@ -1,0 +1,25 @@
+,Unnamed: 0,model_name,model_class,model_file,features,fe_files,output_type,mae,platform_mae,feature_group
+0,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],AbsPower,129.00718050065882,129.00718050065882,KubeletOnly
+1,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],AbsPower,333.0624424625204,333.0624424625204,KubeletOnly
+2,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],AbsPower,359.9434123847168,359.9434123847168,BPFIRQ
+3,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],AbsPower,524.7702898550724,524.7702898550724,CgroupOnly
+4,2,KNeighborsRegressorTrainer_1,scikit,KNeighborsRegressorTrainer_1.json,['bpf_cpu_time_us'],[],AbsPower,611.6415678524373,611.6415678524373,BPFOnly
+5,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],AbsPower,633.4506187109436,633.4506187109436,BPFIRQ
+6,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],AbsPower,742.0685117236509,742.0685117236509,CgroupOnly
+7,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],AbsPower,755.8231374005051,755.8231374005051,KubeletOnly
+8,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],AbsPower,829.2179415828455,829.2179415828455,BPFIRQ
+9,4,GradientBoostingRegressorTrainer_1,scikit,GradientBoostingRegressorTrainer_1.json,['bpf_cpu_time_us'],[],AbsPower,838.5845482992692,838.5845482992692,BPFOnly
+10,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],AbsPower,952.4504448416404,952.4504448416404,KubeletOnly
+11,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],AbsPower,999.800285252314,999.800285252314,CgroupOnly
+12,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],AbsPower,1004.9420877118127,1004.9420877118127,BPFIRQ
+13,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,['bpf_cpu_time_us'],[],AbsPower,1010.3959665391388,1010.3959665391388,BPFOnly
+14,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,['bpf_cpu_time_us'],['poly_scaler.pkl'],AbsPower,1016.4690824340934,1016.4690824340934,BPFOnly
+15,1,SVRRegressorTrainer_1,scikit,SVRRegressorTrainer_1.json,['bpf_cpu_time_us'],[],AbsPower,1035.6227422628126,1035.6227422628126,BPFOnly
+16,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,['bpf_cpu_time_us'],[],AbsPower,1067.0205028015464,1067.0205028015464,BPFOnly
+17,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",['poly_scaler.pkl'],AbsPower,1089.7528060847335,1089.7528060847335,KubeletOnly
+18,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",['poly_scaler.pkl'],AbsPower,1096.7480294949962,1096.7480294949962,BPFIRQ
+19,5,PolynomialRegressionTrainer_1,scikit,PolynomialRegressionTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",['poly_scaler.pkl'],AbsPower,1102.1382007836246,1102.1382007836246,CgroupOnly
+20,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],AbsPower,1103.5795931025498,1103.5795931025498,CgroupOnly
+21,0,SGDRegressorTrainer_1,scikit,SGDRegressorTrainer_1.json,"['cgroupfs_cpu_usage_us', 'cgroupfs_memory_usage_bytes', 'cgroupfs_system_cpu_usage_us', 'cgroupfs_user_cpu_usage_us']",[],AbsPower,1110.9364071766715,1110.9364071766715,CgroupOnly
+22,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,"['bpf_block_irq', 'bpf_cpu_time_us', 'bpf_net_rx_irq', 'bpf_net_tx_irq']",[],AbsPower,1139.826818257391,1139.826818257391,BPFIRQ
+23,3,LinearRegressionTrainer_1,scikit,LinearRegressionTrainer_1.json,"['kubelet_cpu_usage', 'kubelet_memory_bytes']",[],AbsPower,1147.700697859747,1147.700697859747,KubeletOnly
