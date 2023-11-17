@@ -7,17 +7,18 @@ Power models are stored with the following file structure.
     ├── README.md
     └── <machine_id>
         ├── <pipeline_name>.zip # archived pipeline (optional)
-        ├── preprocessed_data
-        │   ├── *_data.csv # raw preprocess data (optional)
-        │   └── preprocess_*.png # visualized preprocess data   
         └── <pipeline_name>
+            ├── README.md # validation results of pipeline
             ├── *_model_metadata.csv # summary of trained model 
             ├── metadata.json # pipeline metadata
             ├── <energy_source>/<output_type>/<feature_group>/* # model files
-            └── train_arguments.json
+            ├── train_arguments.json
+            └── preprocessed_data
+                ├── *_data.csv # raw preprocess data (optional)
+                └── preprocess_*.png # visualized preprocess data   
 ```
 
-- standard pipeline named by `std_<version>`
+- standard pipeline named by `std_<version>_<benchmark type>`
 - preprocessed data are optional to upload
 
 ## Train server information
